@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width:85%;
+    margin: auto;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+/* Start-Header*/
+
+.header {
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover; 
+}
+
+.nav-logo {
+    width: 40%;
+    height: 80px;
+    display: inline;
+}
+
+.nav-logo-img-light {
+    width: 15%;
+    display: inline;
+}
+
+.nav {
+    width: 60%;
+    overflow: hidden;
+    background-color:transparent;
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.header .container .head {
+    width: 100%;
+    text-align: center;
+}
+
+.rest-img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /*margin-left: 250px;
+    margin-right: 80px;*/
+    font-size: 14px;
+    height: 219.992px;
+    font-weight: 400;
+}
+
+.header .h1 {
+    text-align: center;
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 91.2px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: Alegreya;
+}
+
+.header-paragraph {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 74.4px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Dancing Script;
+}
+
+.header-button {
+    text-align: center;
+}
+
+.header-button a {
+    text-decoration: none;
+}
+
+.lrn-more {
+    color: white;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    font-size: 16px;
+    background-color: #c1ab84;
+    font-weight: 500;
+    font-family: Alegreya;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: all .2s;
+}
+
+.lrn-more:hover {
+    color: black;
+    background-color: white;
+}
+
+.bk-vst {
+    color: black;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 500;
+    font-family: Alegreya;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: all .2s;
+}
+
+.bk-vst:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 770px) {
+    .nav-logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .nav {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .nav a {
+        float: none;
+    }
+}
+
+/* End-Header*/
+
+/* Start-Second*/
+
+.second .container .sec {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.second .container .sec .pic {
+    width: 50%;
+    float: left;
+}
+
+.second .container .sec .pic img {
+    width: 90%;
+}
+
+.second .container .sec .def {
+    float: right;
+    width: 50%;
+}
+
+.second .container .sec .def .define {
+    padding: 20px 15px 0px;
+}
+
+.second .container .sec .def .define .h2 {
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    line-height: 1.38em;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.second .container .sec .def .define .p1 {
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: "Dancing Script";
+    line-height: 1.38em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.second .container .sec .def .define .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.second .container .sec .def .define .list {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+
+.second .container .sec .def .define .list .list-item {
+    padding-bottom: 20px;
+}
+
+.second .container .sec .def .define .list .list-item i {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+    background-color: #c1ab84;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+    .second .container .sec .pic {
+        width: 100%;
+        float: center;
+    }
+    .second .container .sec .def {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* End-Second*/
+
+/*Start-Third*/
+
+.third {
+    background-color: #f8f8f8;
+}
+
+.third .container .rev {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.third .container .rev .reviewers {
+    width: 50%;
+    float: left;
+} 
+
+.third .container .rev .reviewers .h2 {
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    line-height: 1.38em;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.third .container .rev .reviewers .p1 {
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: "Dancing Script";
+    line-height: 1.38em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+.third .container .rev .reviewers .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.third .container .rev .reviewers .list {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+    margin: 0px 0px;
+}
+
+.third .container .rev .reviewers .list .list-item i {
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+    color: #c1ab84;
+    text-align: center;
+}
+
+.third .container .rev .img {
+    width: 50%;
+    float: right;
+    padding-top: 60px;
+}
+
+@media only screen and (max-width: 770px) {
+    .third .container .rev .reviewers {
+        width: 100%;
+        float: none;
+    }
+    .third .container .rev .img {
+        width: 100%;
+        float: none;
+    }
+}
+
+/*End-Third*/
+
+/*Start-fourth*/
+
+.fourth {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/our-restaurant.jpg);
+    background-size: cover;
+    position: sticky;
+    background-attachment: fixed;
+}
+
+/*End-fourth*/
+
+/*Start-fifth*/
+
+.fifth .container .ce {
+    text-align: center;
+}
+
+.fifth .container .ce .h2 {
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    line-height: 1.38em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.fifth .container .ce .p1 {
+    color: #c1ab84;
+    font-size: 28px;
+    font-family: "Dancing Script";
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.fifth .container .ce .dish {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes1 {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.fifth .container .ce .dish .dishes1 .dish1 {
+    width: 33%;
+    float: left;
+}
+
+.fifth .container .ce .dish .dishes1 .dish1 .del-sld {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes1 .dish1 .h3 {
+    font-family: "Alegreya";
+    line-height: 28.98px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes1 .dish1 .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes1 .dish2 {
+    width: 33%;
+    float: left;
+}
+
+.fifth .container .ce .dish .dishes1 .dish2 .inc-stk {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes1 .dish2 .h3 {
+    font-family: "Alegreya";
+    line-height: 28.98px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes1 .dish2 .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes1 .dish3 {
+    width: 33%;
+    float: left;
+}
+
+.fifth .container .ce .dish .dishes1 .dish3 .ftc-dsrt {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes1 .dish3 .h3 {
+    font-family: "Alegreya";
+    line-height: 28.98px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes1 .dish3 .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes2 {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.fifth .container .ce .dish .dishes2 .dish1 {
+    width: 33%;
+    float: left;
+}
+
+.fifth .container .ce .dish .dishes2 .dish1 .prmum-sprt {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes2 .dish1 .h3 {
+    font-family: "Alegreya";
+    line-height: 28.98px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes2 .dish1 .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes2 .dish2 {
+    width: 33%;
+    float: left;
+}
+
+.fifth .container .ce .dish .dishes2 .dish2 .stsfid-clint {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes2 .dish2 .h3 {
+    font-family: "Alegreya";
+    line-height: 28.98px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes2 .dish2 .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes2 .dish3 {
+    width: 33%;
+    float: left;
+}
+
+.fifth .container .ce .dish .dishes2 .dish3 .fre-updt {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.fifth .container .ce .dish .dishes2 .dish3 .h3 {
+    font-family: "Alegreya";
+    line-height: 28.98px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .dish .dishes2 .dish3 .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth .container .ce .view-full-menu {
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 28px;
+    background-color: #c1ab84;
+    font-weight: 500;
+    font-family: Alegreya;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: all .2s;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 885px) {
+    .fifth .container .ce .dish .dishes1 .dish1 {
+        width: 100%;
+        float: none;
+    }
+    .fifth .container .ce .dish .dishes1 .dish2 {
+        width: 100%;
+        float: none;
+    }
+    .fifth .container .ce .dish .dishes1 .dish3 {
+        width: 100%;
+        float: none;
+    }
+    .fifth .container .ce .dish .dishes2 .dish1 {
+        width: 100%;
+        float: none;
+    }
+    .fifth .container .ce .dish .dishes2 .dish2 {
+        width: 100%;
+        float: none;
+    }
+    .fifth .container .ce .dish .dishes2 .dish3 {
+        width: 100%;
+        float: none;
+    }
+    .fifth .container .ce .view-full-menu {
+        margin-top: 0px;
+    }
+}
+
+/*End-fifth*/
+
+/*Start-sexth*/
+
+.sexth {
+    width: 100%;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+}
+
+.sexth .container .testimonial {
+    text-align: center;
+}
+
+.sexth .container .testimonial i {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.sexth .container .testimonial .h2 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Alegreya;
+    margin-bottom: 50px;
+}
+
+.sexth .container .testimonial .p1 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Alegreya Sans;
+    margin-bottom: 50px;
+    line-height: 1.86em;
+}
+
+.sexth .container .testimonial .p2 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19.44px;
+    font-family: Alegreya Sans;
+    margin-bottom: 10px;
+    line-height: 1.86em;
+}
+
+.sexth .container .testimonial .p3 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    opacity: 0.7;
+    margin-top: 2px;
+    line-height: 1.86em;
+}
+
+.sexth .container .testimonial .go i {
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+
+/*End-sexth*/
+
+/*Start-seventh*/
+
+.seventh {
+    width: 100%;
+}
+
+.seventh .container .places {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.seventh .container .places .place {
+    width: 50%;
+    float: left;
+}
+
+.seventh .container .places .place .h2 {
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+    line-height: 1.38em;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.seventh .container .places .place .p1 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.seventh .container .places .place .p2 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.seventh .container .places .place .list {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+
+.seventh .container .places .place .list .list-item {
+    padding-bottom: 20px;
+}
+
+.seventh .container .places .place .list .list-item .p3 {
+    color: #686868;
+    font-size: 16px;
+    font-family: "Alegreya";
+    line-height: 1.86em;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.seventh .container .places .place .list .list-item .list-items {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+    background-color: #c1ab84;
+    color: white;
+    text-align: center;
+}
+
+.seventh .container .places .map {
+    width: 50%;
+    float: left;
+}
+
+@media only screen and (max-width: 770px) {
+    .seventh .container .places .place {
+        width: 100%;
+        float: none;
+    }
+    .seventh .container .places .map {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+/*End-seventh*/
+
+/*Start-eighth*/
+
+.eighth{
+    background-color: #403d38;
+    color: #959595;
+    width:100%;
+}
+
+.eighth .container .div8 {
+    width: 24%;
+    float: left;
+    margin-top: 30px ;
+    margin-left:9px;
+}
+
+.eighth .container .div8 .UL {
+    border-bottom: none;
+}
+
+.eighth .container .div8-special {
+    background-image: url(../img/map.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.eighth .container .div8 h4 {
+    color:white;
+    margin-left:20px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: "Alegreya";
+    line-height: 1.38em;
+    font-weight: 400;
+}
+
+.eighth p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+}
+
+.eighth dt {
+    border-bottom: #959595 1px;
+    padding: 10px;
+}
+
+.eighth .special .sp {
+    padding:10px;
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+}
+
+.eighth .container .div8 dl dt a {
+    text-decoration: none;
+    margin-top:50px;
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+}
+
+.eighth .container .div8 dl dt a:hover {
+    color: #c7bfbf;
+}
+
+@media only screen and (max-width: 885px) {
+    .eighth .container .div8 {
+        width: 100%;
+        float: none;
+        margin-top: 50px ;
+        margin-left:0px;
+    }
+}
+
+/*End-eighth*/
+
+/*Start-ninth*/
+
+.ninth {
+    width: 100%;
+    background-color: rgb(53, 51, 48);
+    text-align: center;
+}
+
+.ninth .container .ce img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ninth .container .ce .p {
+    color: #797979;
+    font-size: 14px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+}
+
+.ninth .container .ce .social {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 50%;
+    color: #8c8a86;
+    background-color: #484540;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.ninth .container .ce .fb:hover {
+    color: white;
+    background-color: #3b5998;
+}
+
+.ninth .container .ce .ig:hover {
+    color: white;
+    background-color: #125688;
+}
+
+.ninth .container .ce .tb:hover {
+    color: white;
+    background-color: #32506d;
+}
+
+.ninth .container .ce .tt:hover {
+    color: white;
+    background-color: #00aced;
+}
+
+/*End-ninth*/
+
+/*Start-tenth*/
+
+.tenth {
+    position: absolute;
+    right: 0px;
+    bottom: 100%;
+    width: 20px;
+    background-color: #fff;
+}
+
+.tenth dt {
+    color: #666666;
+    margin: 5px 3px;
+    position: relative;
+    text-align: center;
+}
+
+.tenth dt dl a:hover {
+    color: #218fe6;
+}
+
+/*End-tenth*/
+
+/*Start-eleventh*/
+
+.eleventh {
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.eleventh a {
+    border-radius: 50%;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.5);
+    opacity: .5;
+    text-decoration: none;
+    transition: color .2s, background-color .3s;
+}
+
+.eleventh a i {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eleventh a:hover {
+    opacity: 1;
+    color: #fff;
+    border: 2px solid rgba(255,255,255);
+}
+
+@media only screen and (max-width: 885px) {
+    .eleventh {
+        display: none;
+    }
+}
+
+/*End-eleventh*/
